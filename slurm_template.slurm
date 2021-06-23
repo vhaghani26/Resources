@@ -20,7 +20,6 @@ source ~/.profile
 . /software/anaconda3/4.8.3/lssc0-linux/etc/profile.d/conda.sh
 
 # Activate your desired conda environment
-source /home/vhaghani/.conda/envs/mechip2
 conda activate mechip2
 
 # Fail on weird errors
