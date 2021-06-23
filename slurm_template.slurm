@@ -16,6 +16,9 @@
 # Source .profile so conda can be used
 source ~/.profile
 
+# Initialize conda
+. /software/anaconda3/4.8.3/lssc0-linux/etc/profile.d/conda.sh
+
 # Activate your desired conda environment
 conda activate mechip2
 
@@ -26,8 +29,6 @@ set -x
 
 # Run the snakemake!
 echo Hello World > helloworld.txt
-sleep 15
-date
 
 # Print out various information about the job
 env | grep SLURM                                               # Print out values of the current jobs SLURM environment variables
