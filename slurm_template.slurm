@@ -9,7 +9,7 @@
 #SBATCH -N 1                                                   # Number of nodes/computers
 #SBATCH -n 1                                                   # Number of cores
 #SBATCH -c 1                                                   # Eight cores per task
-#SBATCH -t 00:05:00                                            # Ask for no more than 24 hours
+#SBATCH -t 00:05:00                                            # Ask for no more than 5 minutes
 #SBATCH --mem=1gb                                              # Ask for no more than 1 GB of memory
 #SBATCH --chdir=/share/korflab/home/viki/mechip2               # Directory I want the job to run in
 
