@@ -3,9 +3,9 @@
 #SBATCH --mail-user=vhaghani@ucdavis.edu                       # User email to receive updates
 #SBATCH --mail-type=ALL                                        # Get an email when the job begins, ends, or if it fails
 #SBATCH -p production                                          # Partition, or queue, to assign to
-#SBATCH -J mechip2                                             # Name for job
-#SBATCH -o mechip2_slurm.j%j.out                               # File to write STDOUT to
-#SBATCH -e mechip2_slurm.j%j.err                               # File to write error output to
+#SBATCH -J test                                                # Name for job
+#SBATCH -o test_slurm.j%j.out                                  # File to write STDOUT to
+#SBATCH -e test_slurm.j%j.err                                  # File to write error output to
 #SBATCH -N 1                                                   # Number of nodes/computers
 #SBATCH -n 1                                                   # Number of cores
 #SBATCH -c 1                                                   # Eight cores per task
