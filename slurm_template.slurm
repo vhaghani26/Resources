@@ -20,7 +20,7 @@ source /share/korflab/home/viki/profile
 . /software/anaconda3/4.8.3/lssc0-linux/etc/profile.d/conda.sh
 
 # Activate your desired conda environment
-conda activate mechip2
+conda activate /home/vhaghani/.conda/envs/mechip2
 
 # Fail on weird errors
 set -o nounset
