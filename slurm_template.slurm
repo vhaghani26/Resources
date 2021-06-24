@@ -14,7 +14,7 @@
 #SBATCH --chdir=/share/korflab/home/viki/mechip2               # Directory I want the job to run in
 
 # Source .profile so conda can be used
-source ~/.profile
+source /share/korflab/home/viki/profile
 
 # Initialize conda
 . /software/anaconda3/4.8.3/lssc0-linux/etc/profile.d/conda.sh
