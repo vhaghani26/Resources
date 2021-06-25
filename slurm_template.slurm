@@ -13,6 +13,9 @@
 #SBATCH --mem=1gb                                              # Ask for no more than 1 GB of memory
 #SBATCH --chdir=/share/korflab/home/viki/mechip2               # Directory I want the job to run in
 
+# Run aklog to deal with SLURM bug
+aklog
+
 # Source profile so conda can be used
 source /share/korflab/home/viki/profile
 
